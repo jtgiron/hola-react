@@ -1,0 +1,61 @@
+
+.tw-followCard-avatar {
+    border-radius: 100vh;
+    overflow: hidden;
+    width: 100px;
+    transition: transform 0.3s ease;
+    will-change: transform;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tw-followCard-avatar:hover {
+    transform: scale(1.1);
+}
+
+div {
+    background-color: #333;
+    color: white;
+    margin-bottom: 10px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+div strong {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+}
+
+div span {
+    color: #888;
+    margin-left: 5px;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+
+
+button {
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: ease-in 0.25s;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
